@@ -1,0 +1,23 @@
+.contact-price-red {
+    background-color: #32B47A;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.price__button-yellow {
+    background-color: #FFCF3C;
+    &:hover  {
+        background-color: #EF584E;
+    }
+}
+.contact-price__row-red {
+    padding-top: 150px;
+    @include mediaTabletS {
+        padding-top: 50px;
+    }
+}
+.contact-price__image-red {
+    @include mediaMobile {
+        display: none;
+    }
+}

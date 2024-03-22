@@ -1,0 +1,115 @@
+.intro {
+    margin-top: 40px;
+    margin-bottom: 65px;
+    overflow: hidden;
+    @include mediaMobile {
+        margin-top: 0;
+    }
+}
+.intro__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include mediaTabletS  {
+        grid-template-columns: 1fr;
+        justify-content: center;
+       
+    }
+}
+
+.intro__info {
+    text-align: center;
+}
+.intro__title {
+    margin-bottom: 20px;
+    @include mediaMobile {
+        font-size: 40px;
+    }
+    @include mediaMobileS {
+        font-size: 35px;
+    }
+}
+.text {
+    margin-bottom: 45px;
+    p {
+        color: #8682A7;
+        font-size: 20px;
+        line-height: 1.5;
+        @include mediaMobile {
+            font-size: 16px;
+        }
+    }
+}
+.full-size {
+    display: block;
+    @include mediaTabletS  {
+        display: none;
+    }
+}
+.intro__form {
+    form {
+        display: flex;
+        justify-content: space-between;
+        background-color: #E8E5FB;
+        border-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+       
+        @include mediaTabletS {
+           width: 100%;
+            align-items: center;
+        }
+       
+    }
+    .intro__form-input {
+        background-color: #E8E5FB;
+        /* width: 80%; */
+        border-radius: 5px;
+        border-bottom-left-radius: 50px;
+        color:#6D698C;
+        padding: 20px 30px;
+        @include mediaMobileS {
+            padding: 10px 15px;
+            max-width: 200px;
+            font-size:  0.8em;
+        }
+
+    }
+    .intro__form-btn {
+        background-color: var(--accent);
+        color: #fff;
+        border-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 20px 30px;
+        transition: 0.25s ease-in;
+        /* font-size: 0.8em; */
+        &:hover {
+            background-color: #EF584E;
+
+        }
+        @include mediaMobileS {
+            padding: 10px 15px;
+            font-size:  0.8em;
+        }
+    }
+
+    
+}
+.intro__picture {
+    @include mediaTabletS {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .mobile_form {
+        display: none;
+        @include mediaTabletS {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    } 
+}

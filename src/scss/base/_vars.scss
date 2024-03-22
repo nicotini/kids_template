@@ -1,0 +1,20 @@
+:root {
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	--font-main: 'FaberSansReduced', sans-serif;
+	--font-accent: 'FaberSansReduced', serif;
+
+	--page-bg: #F5F4FF;
+	--text-color: #2D2D2D;
+	--accent: #5B45FF;
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

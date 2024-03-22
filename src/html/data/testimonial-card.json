@@ -1,0 +1,26 @@
+[
+    {
+        "image": "testimonial1.jpg",
+        "name": "Mariia",
+        "text": "A testimonial is an honest endorsement of your product or service that usually comes from a customer, colleague, or peer who has benefited from or experienced success as a result of the work you did for them.",
+        "duration": "2s",
+        "delay": "0.2s",
+        "color": "#EF584E"
+    },
+    {
+        "image": "testimonial2.jpg",
+        "name": "Pavel",
+        "text": "A testimonial is an honest endorsement of your product or service that usually comes from a customer, colleague, or peer who has benefited from or experienced success as a result of the work you did for them.",
+        "duration": "3s",
+        "delay": "0.3s",
+        "color": "#FFCF3C"
+    },
+    {
+        "image": "testimonial3.jpg",
+        "name": "Daniel",
+        "text": "A testimonial is an honest endorsement of your product or service that usually comes from a customer, colleague, or peer who has benefited from or experienced success as a result of the work you did for them.",
+        "duration": "4s",
+        "delay": "0.4s",
+        "color": "#5B45FF"
+    }
+]

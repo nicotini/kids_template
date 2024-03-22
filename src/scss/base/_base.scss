@@ -1,0 +1,41 @@
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'FaberSansReduced', sans-serif;
+    background-color: var(--page-bg);
+    color: var(--text-color);
+    font-size: 16px;
+}
+.title_h1 {
+    font-size: 46px;
+    font-weight: 600;
+   
+}
+.h2__title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    .emphasis {
+        color: #FFCF3C;
+    }
+}
+.h3__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.btn-template {
+    border-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 20px 30px;
+        transition: 0.25s ease-in;
+}

@@ -1,0 +1,69 @@
+.contact-price-green {
+     background-color: #EF6A62;
+     padding-top: 70px;
+     position: relative;
+     overflow: hidden;
+     
+}
+
+.contact-price__row {
+}
+.contact-price__row-green {
+}
+.contact-price__info-green {
+    color: #fff;
+    padding-top: 80px;
+    @include mediaTabletS {
+        padding-top: 50px;
+    }
+}
+
+.bounceInLeft {
+}
+.contact-price__heading {
+}
+.contact-price__title {
+}
+
+.emphasis {
+}
+.contact-price__text {
+}
+.contact-price__form {
+}
+.form__row {
+}
+.form__input {
+}
+.form__input-label {
+}
+.contact-price__notion {
+}
+
+.price__button-yellow2 {
+    background-color: #FFCF3C;
+    color: #2D2D2D;
+    &:hover  {
+        background-color: #2DBC7C;
+    }
+
+}
+.img-kids { 
+    @include mediaTablet {
+        display: none;
+    }
+    
+}
+.img-color {
+    display: none;
+    @include mediaTablet {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        display: block;
+        
+    }
+    @include mediaMobile {
+        display: none;
+    }
+}

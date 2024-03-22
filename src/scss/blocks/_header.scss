@@ -1,0 +1,124 @@
+.header {
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header__row {
+		padding: 25px 0;
+	}
+
+	.header__text {
+		color: #AFACC9;
+		font-size: 13px;
+		max-width: 130px;
+		line-height: 1.5;
+		@include mediaTablet {
+			max-width: 110px;
+		}
+
+	}
+
+	.button__contact {
+		border-radius: 20px;
+		border-bottom-left-radius: 50px;
+		border: none;
+		width: 185px;
+		height: 50px;
+		padding: 10px 25px 10px 25px;
+		background-color: #2DBC7C;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.25s ease-in;
+		@include mediaMobile() {
+			border-radius: 5px;
+			border-top-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			width: 55px;
+			height: 55px;
+			i  {
+				font-size: 20px ;
+			 }
+		}
+
+		span {
+			padding-right: 5px;
+		}
+
+		&:hover {
+			background-color: #EF584E;
+		}
+	}
+
+	.contact__icons {
+		display: flex;
+		gap: 7px;
+		
+	}
+
+	.contact__icon {
+		padding: 12px;
+		border: 1px solid var(--accent);
+		border-radius: 12px;
+		cursor: pointer;
+		transition: 0.5s ease-in;
+
+		i {
+			color: var(--accent);
+		}
+
+		&:hover {
+			background-color: var(--accent);
+
+			i {
+				color: #fff;
+			}
+
+		}
+		
+	}
+
+	.header__phone {
+		font-family: 'Directo-Bold' sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.header__nav {
+		width: 100%;
+		@include mediaMobile() {
+			display: none;
+		}
+	}
+
+	.header__menu {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		.item__menu-link {
+			font-size: 16px;
+			color: #8682A7;
+			transition: 0.5s ease-in;
+
+			&:hover {
+				color: var(--accent);
+				font-weight: 500;
+			}
+		}
+	}
+	.hide__mobile {
+		@include mediaTablet() {
+			display: none;
+		}
+	}
+	.hide-smobile {
+		@include mediaMobileS() {
+			display: none;
+		}
+	}
+}

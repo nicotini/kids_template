@@ -1,0 +1,19 @@
+.tools_item {
+    background-color: #fff;
+    padding: 45px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    @include mediaMobileS {
+        font-size: 14px;
+    }
+}
+.tools__image {
+    
+}
+.tools__desc {
+    text-align: center;
+}

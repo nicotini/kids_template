@@ -1,0 +1,29 @@
+.features__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 50px;
+}
+.features__item-info {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.features__icon {
+    max-width: 64px;
+}
+.features__item-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2D2D2D;
+}
+.features__text {
+    font-size: 16px;
+    color: #6D698C;
+}

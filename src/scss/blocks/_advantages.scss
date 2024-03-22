@@ -1,0 +1,43 @@
+.advantages {
+    margin-bottom: 90px;
+
+}
+
+.advantages__row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+
+    @include mediaTabletS {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12px;
+    }
+    @include mediaMobileS {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.advantages__item {
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage__icon {
+    width: 15%;
+    img {
+        width: 26px;
+
+    }
+
+}
+
+.advantage__text {
+    width: 85%;
+    font-size: 14px;
+    color: #6D698C;
+}

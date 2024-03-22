@@ -1,0 +1,35 @@
+.features {
+    margin-bottom: 85px;
+    @include mediaMobile {
+        margin-bottom: 50px;
+    }
+    
+}
+.features__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 45px;
+}
+.features__title {
+    text-align: center;
+    width: 70%;
+    @include mediaMobile {
+        font-size: 35px;
+    }
+    @include mediaMobileS {
+        font-size: 22px;
+    }
+    
+}
+.features__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 15px;
+    justify-content: center;
+    @include mediaMobile {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

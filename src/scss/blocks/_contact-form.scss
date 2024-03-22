@@ -1,0 +1,143 @@
+.contact-price {
+    padding-top: 70px;
+    background-color: #7967FF;
+    margin-bottom: 90px;
+    color: #fff;
+    position: relative;
+    @include mediaTablet {
+        padding-top: 50px;
+    }
+}
+
+.contact-price__row {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px; 
+    @include mediaTablet {
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+    }
+    @include mediaTabletS {
+        gap: 20px;
+    }
+    @include mediaMobile {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-price__info {
+    margin-top: 300px;
+    @include mediaTablet {
+        margin-top: 50px;
+    }
+    @include mediaTabletS {
+        margin-top: 0; 
+    }
+}
+
+.contact-price__heading {
+    margin-bottom: 50px;
+    @include mediaTabletS {
+        margin-bottom: 20px;
+    }
+}
+
+.contact-price__title {
+    margin-bottom: 25px;
+    @include mediaTablet {
+        font-size: 32px; 
+    }
+   
+}
+.contact-price__title-absolute {
+    padding-top: 100px;
+    position: absolute;
+    z-index: 10;
+    width: 70%;
+   
+    @include mediaTablet {
+        padding-top: 0;
+        position: relative;
+        width: 60%;
+    }
+    @include mediaTabletS {
+        width: 100%; 
+    }
+}
+
+
+.contact-price__text {
+    font-size: 24px;
+
+}
+
+.contact-price__form {}
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 25px;
+    @include mediaTablet {
+        flex-direction: column;
+    }
+}
+
+.form__input-label {
+    font-size: 14px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 50% 1;
+
+    input {
+        padding: 15px 10px 15px 45px;
+        background-color: #fff;
+        border-radius: 15px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        font-size: 14px;
+        color: #B7B4D3;
+        
+    }
+   
+}
+
+.contact-price__notion {
+    font-size: 14px;
+    color: #D5D0FF;
+    width: 50%;
+    @include mediaTabletS {
+        width: 100%;
+    }
+   
+}
+
+.contact-price__button {
+    width: 50%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: 0.25s ease-in;
+    @include mediaTabletS {
+        width: 100%;
+    }
+}
+.price__button-green {
+    background-color: #2DBC7C;
+    &:hover {
+        background-color: #EF584E;
+    }
+}
+
+.contact-price__image {
+    position: relative;
+    z-index: 5;
+    @include mediaMobile {
+        display: none;
+    }
+}

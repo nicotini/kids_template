@@ -1,0 +1,126 @@
+.about {
+    margin-bottom: 140px;
+    @include mediaTablet {
+        margin-bottom: 80px;
+    }
+    @include mediaMobile {
+        margin-bottom: 30px;
+    }
+}
+.about__sec-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+    
+}
+.about__title {
+    text-align: center;
+    width: 60%;
+    @include mediaTabletS {
+        width: 100%;
+        font-size: 35px;
+    }
+    @include mediaMobile {
+        font-size: 22px;
+    }
+}
+.about__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    @include mediaTabletS {
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    @include mediaMobile {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+}
+
+.about__img {
+   position: relative;
+}
+.image__main {
+    position: relative;
+    z-index: 10;
+}
+.image__rectangle {
+    position: absolute;
+    z-index: 1;
+    width: 70%;
+}
+.image__rectangle-green {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 1;
+}
+.about__img-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+    @include mediaTabletS {
+        display: none;
+    }
+
+}
+.info__rectangle {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    z-index: 10;
+
+    
+}
+.about__info {}
+
+.about__info-title {
+    margin: 63px 0 40px 0;
+    
+}
+
+.h4__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    @include mediaTabletS {
+        display: none;
+    }
+}
+
+.about__info-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+    @include mediaMobileS {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.abour__info-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.about__info-title-bottom {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+}
+.hidden-large {
+    display: none!important;
+    @include mediaTabletS {
+        display: block!important;
+    }
+}
